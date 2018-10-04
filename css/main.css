@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /*border: 2px solid green;*/
+}
+
+div, p, button, span, a {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    margin: 0 0 15px;
+}
+
+.container {
+    /*border: 2px solid red;*/
+}
+
+.example-bs {
+    margin-bottom: 100px;
+}
+
+div[class^='col'], div[class*=' col'] {
+    background: #000;
+    border: 1px solid gray;
+    color: #fff;
+    padding: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.example-flex .flex-item{
+    height: 135px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.example-flex .justify-horizontal{
+    margin-bottom: 10px;
+}
+
+.no-gutters div:nth-child(2n+2) {
+    background-color: gray;
+}
